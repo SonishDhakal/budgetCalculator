@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.containerBox{
+    max-width: 1124px;
+    margin: 0 auto;
+    padding: 1rem 0;
+   
+}
+
+@media screen and (max-width:1123px){
+    .containerBox{
+      
+        padding: 1rem;
+       
+    }
+
+}
